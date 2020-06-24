@@ -7,7 +7,7 @@ public class test {
     int a= in.nextInt();
     int b= in.nextInt();
     int c= a+b;
-    System.out.println(c);
+    System.out.println("The answer is "+ c);
     
     }
 }  
