@@ -28,7 +28,7 @@ body{
 .con-login .con-inputs .con-forgot a{
   text-decoration: none;
   color: rgb(var(--color));
-  font-size: 9rem;
+  font-size: 2rem;
 }
 .con-input label{
   display: block;
