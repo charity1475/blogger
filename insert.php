@@ -7,7 +7,7 @@ if($link === false){
 $first_name = mysqli_real_escape_string($link, $_REQUEST['email']);
 $email = mysqli_real_escape_string($link, $_REQUEST['password']);
 
-$sql = "INSERT INTO nametable (Email, Password) VALUES ('$email', '$password')";
+$sql = "INSERT INTO nametable (Email, Password) VALUES ('$_POST[email]', '$_POST[password]')";
 if(mysqli_query($link, $sql)){
     echo "Records added successfully.";
 } else{
