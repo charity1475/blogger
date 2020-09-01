@@ -54,7 +54,7 @@ body{
   opacity: 1;
 }
 .btn-login{
-  background: rgb(var(--primary));
+  background: green;
   color: #fff;
   border: 0px;
   padding: 14px 20px;
